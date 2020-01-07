@@ -8,6 +8,7 @@
       src="https://kit.fontawesome.com/c0f90317a8.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Chats | Kakao Clone</title>
   </head>
   <body>
@@ -24,13 +25,17 @@
       </div>
     </div>
     <header class="header">
-      <div class="header_header-column">
+      <div class="header__header-column">
         <h1 class="header__title">Chats</h1>
       </div>
-      <div class="header_header-column">
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
         <span class="header__icon">
           <i class="far fa-comment"></i>
-          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
           <i class="fas fa-cog"></i>
         </span>
       </div>
@@ -56,30 +61,28 @@
       </ul>
     </main>
     <nav class="nav">
-      <div class="ulnav__list">
-        <ul>
-          <li class="nav__list-item">
-            <a href="friends.html" class="nav__last-link">
-              <i class="far fa-user"></i
-            ></a>
-          </li>
-          <li class="nav__list-item">
-            <a href="index.html" class="nav__last-link">
-              <i class="fas fa-comment"></i
-            ></a>
-          </li>
-          <li class="nav__list-item">
-            <a href="find.html" class="nav__last-link"
-              ><i class="fas fa-search"></i
-            ></a>
-          </li>
-          <li class="nav__list-item">
-            <a href="more.html" class="nav__last-link"
-              ><i class="fas fa-ellipsis-h"></i
-            ></a>
-          </li>
-        </ul>
-      </div>
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__last-link">
+            <i class="far fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__last-link">
+            <i class="fas fa-comment"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__last-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__last-link"
+            ><i class="fas fa-ellipsis-h"></i
+          ></a>
+        </li>
+      </ul>
     </nav>
   </body>
 </html>
